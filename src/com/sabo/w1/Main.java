@@ -1,14 +1,9 @@
 package com.sabo.w1;
-
 /**
- * Main class dari project digunaakan untuk membuat object dari
- * class2 yang sebelumnya sudah dibuat.
- *
- * @author Kelompok C2
+ * Main class dari project digunaakan untuk membuat object dari class2 yang sebelumnya sudah dibuat.
  */
 public class Main {
     public static void main(String[] args) {
-
         // membuat object dari class Menu
         Menu menu1 = new Menu("Nasi Goreng", 12_000),
              menu2 = new Menu("Coffe Latte", 10_000);
