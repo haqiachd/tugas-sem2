@@ -11,8 +11,9 @@ public class Acara3Lat2 {
         System.out.print("World !");
 
 //-----------------------------------------------
+        System.out.println("\n\n");
 
-        String nama = "Indomesia";
+        String nama = "Indonesia";
         char abjad = 'a';
         int a = 6;
         double b = 6.9;

@@ -11,6 +11,10 @@ public class Person {
         this.age = age;
     }
 
+    public Person(){
+        this(null, 0);
+    }
+
     public String getNama(){
         return this.name;
     }
@@ -19,17 +23,18 @@ public class Person {
         return this.age;
     }
 
-    private static String fName = "Lisa",
+    private String fName = "Lisa",
                          lName = "Palombo",
                          stusStatus = "Active";
-    private static int id = 123456789;
+    private int id = 123456789;
 
     public static void main(String[] args) {
+        Person person = new Person();
 
-        System.out.println("ID : " + id);
-        System.out.println("First name : " + fName);
-        System.out.println("Last name : " + lName);
-        System.out.println("Status : " + stusStatus);
+        System.out.println("ID : " + person.id);
+        System.out.println("First name : " + person.fName);
+        System.out.println("Last name : " + person.lName);
+        System.out.println("Status : " + person.stusStatus);
 
     }
 }

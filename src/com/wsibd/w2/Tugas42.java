@@ -11,9 +11,10 @@ public class Tugas42 {
             case 3 : return "Mescafe";
             case 4 : return "Soda milk";
             case 5 : return "Tea";
-            default: return null;
+            default: return "tidak ada";
         }
     }
+
     public static void main(String[] args) {
         String nama;
         int pil;
