@@ -1,17 +1,14 @@
 package com.wsibd.w3;
 
-public class LatihanA {
+public class Latihan5B {
 
     public static void main(String[] args) {
-
         int i = 0;
 
-        while(i <= 10){
+        do{
             System.out.println("Perulangan ke-" + i);
             i++;
-        }
-
+        }while(i <= 10);
     }
 }
-
 

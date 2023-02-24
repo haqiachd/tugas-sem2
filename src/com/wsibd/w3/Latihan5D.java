@@ -1,6 +1,6 @@
 package com.wsibd.w3;
 
-public class LatihanD {
+public class Latihan5D {
 
     public static void main(String[] args) {
 
