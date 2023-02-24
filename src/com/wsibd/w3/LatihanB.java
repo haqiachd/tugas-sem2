@@ -11,3 +11,4 @@ public class LatihanB {
         }while(i <= 10);
     }
 }
+

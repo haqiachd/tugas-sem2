@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Tugas51 {
 
     public static void main(String[] args) {
-
         int bil1, bil2, pil;
         Scanner scan = new Scanner(System.in);
 
@@ -36,7 +35,5 @@ public class Tugas51 {
                 }
             }
         }
-
-
     }
 }
