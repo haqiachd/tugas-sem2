@@ -2,7 +2,7 @@ package com.wsibd.w3;
 
 import java.util.Scanner;
 
-public class Latihan62 {
+public class Tugas62 {
 
     public static void main(String[] args) {
         String[] array;
