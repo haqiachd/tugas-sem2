@@ -1,5 +1,7 @@
 package com.wsibd.w4;
 
+import java.util.Scanner;
+
 public class SequentialSearch {
 
     /**
@@ -15,24 +17,44 @@ public class SequentialSearch {
      * @param paramTwo data yang akan dicari
      */
     public static void sequentialSearch(int[] paramOne, int paramTwo){
-        int index = -1;
+        var index = -1;
 
-        for(int i = 0; i < paramOne.length; i++){
+        // membaca semua data yang ada didalam array
+        for(var i = 0; i < paramOne.length; i++){
+            // cek apakah data dari array sama atau tidak dengan data yang dicari
             if(paramOne[i] == paramTwo){
                 index = i;
                 break;
             }
         }
+
+        // menampilkan pesan output
         if(index == -1){
-            System.out.println("Your Target does not exist in the array");
+            System.out.println("Angka yang Anda cari tidak ditemukan!");
         }else{
-            System.out.println("Your target integer is in index " + index + " of the array");
+            System.out.println("Angka yang Anda cari terdapat pada index ke-" + index + " pada array");
         }
     }
 
     public static void main(String[] args) {
-        int[] exVarOne = {2, 9, 6, 7, 4, 5, 3, 0, 1};
-        int target = 4;
+        // inisialisasi
+        Scanner input = new Scanner(System.in);
+        int [] exVarOne = new int[10];
+        int target;
+
+        // menginputkan data array
+        for(var i = 0; i < exVarOne.length; i++){
+            System.out.print("Masukan nilai dari index ke-" + i + " : ");
+            exVarOne[i] = input.nextInt();
+
+        }
+
+        // menginputkan data angka yang dicari
+        System.out.print("\nMasukan angka yang dicari : ");
+        target = input.nextInt();
+
+        // mencari data angka yang dicari
+        System.out.println();
         sequentialSearch(exVarOne, target);
     }
 }

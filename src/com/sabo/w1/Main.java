@@ -13,7 +13,7 @@ public class Main {
               bahan2 = new Bahan("Bubuk Kopi", 3_000);
 
         // mmebuat object dari class Transaksi
-        var transaksi = new Transaksi();
+        Transaksi transaksi = new Transaksi();
 
         // memanggil method transaksi jual
         transaksi.transaksiJual(menu1, 2);
