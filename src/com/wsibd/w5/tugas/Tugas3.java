@@ -24,8 +24,7 @@ public class Tugas3 {
         if (animal instanceof Dog){
             System.out.println("animal is Dog");
         }
-
-
-
     }
 }
+
+
